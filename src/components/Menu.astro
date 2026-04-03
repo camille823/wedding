@@ -1,0 +1,48 @@
+<div class="text-sm text-white w-full">
+
+   <nav class="fixed w-screen h-[70px] flex justify-center-safe pl-5 pr-5  text-gray-900 transition-all shadow z-100"
+   style="background-color:var(--color-secondary)"
+   >
+
+       <ul class="hidden md:flex items-center space-x-40">
+           <li><a href="#hero">Home</a></li>
+           <li><a href="#story">Our Story</a></li>
+           <li><a href="#schedule">Schedule</a></li>
+           <li><a href="#HoneyFund">Honey Fund</a></li>
+           <li><a href="#RSVP">RSVP</a></li>
+
+       </ul>
+       
+       <button aria-label="menu-btn" type="button" class="menu-btn inline-block md:hidden active:scale-90 transition absolute left-5 top-5">
+           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+               <path d="M3 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2z"/>
+           </svg>
+       </button>
+
+       <div class="mobile-menu absolute top-[70px] left-0 w-full shadow-sm p-6 hidden md:hidden"
+          style="background-color:var(--color-secondary)"
+>
+           <ul class="flex flex-col space-y-4 text-lg">
+               <li><a href="#hero" class="text-sm">Home</a></li>
+               <li><a href="#story" class="text-sm">Our Story</a></li>
+               <li><a href="#schedule" class="text-sm">Schedule</a></li>
+               <li><a href="#HoneyFund" class="text-sm">Honey Fund</a></li>
+               <li><a href="#RSVP" class="text-sm">RSVP</a></li>
+
+           </ul>
+
+       </div>
+   </nav>
+</div>
+
+<script>
+   const menuButtons = document.querySelectorAll('.menu-btn');
+   const mobileMenus = document.querySelectorAll('.mobile-menu');
+
+   menuButtons.forEach((btn, index) => {
+       btn.addEventListener('click', () => {
+           mobileMenus[index].classList.toggle('hidden');
+       });
+   });
+
+</script>
