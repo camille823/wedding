@@ -12,7 +12,7 @@ story:
   heading: "Our Story"
   body: | 
     From the first message, we knew we were made for each other. At one point, our texts to each other became so long that they were too big to send via SMS! We met in person on an uncommonly temperate day in December. We made each other laugh so hard the boba tea we were drinking almost came out of our noses. Now, for years later, we want to celebrate a lifetime of love and laughter with our favorite people.
-
+  imageAsset: "wedshots/vadim-paripa-unsplash.jpg"
   imageAlt: "Our story together"
   highlights:
     - "💌 Online hopefuls to offline lovers"
