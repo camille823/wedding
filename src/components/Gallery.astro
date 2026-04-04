@@ -79,9 +79,8 @@ const galleryImages = (galleryContent.images ?? [])
             {
                 galleryImages.map((image) => (
                     <figure
-                        class="relative aspect-square w-60 sm:w-75 lg:w-100 flex-none overflow-hidden rounded-4xl"
+                        class="relative aspect-square w-sm md:w-75 lg:w-100 flex-none overflow-hidden bg-white pt-4 pl-4 pr-4 pb-14"
                         style="
-                            background: color-mix(in srgb, var(--color-secondary) 5%, transparent);
                         "
                     >
                         <Image
@@ -90,16 +89,14 @@ const galleryImages = (galleryContent.images ?? [])
                             loading="lazy"
                             format="webp"
                             width={800}
-                            height={800}
+                            height={700}
                             fit="cover"
                             class="block h-full w-full"
                         />
                         <figcaption
-                            class="absolute inset-x-0 bottom-0 bg-linear-to-t px-6 py-4 text-sm"
+                            class="absolute inset-x-0 bottom-0 bg-linear-to-t px-6 py-5 text-base md:text-base text-black font-handwriting"
                             style="
                                 background: linear-gradient(to top, var(--color-text) 50%, transparent);
-                                color: var(--color-secondary);
-                                text-shadow: 1px 1px var(--color-primary);
                                 opacity: 0.8;
                             "
                         >

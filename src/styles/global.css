@@ -1,6 +1,8 @@
 @import "@fontsource-variable/inter/index.css";
 @import "@fontsource/playfair-display/latin.css";
 @import "@fontsource/montecarlo";
+@import "@fontsource/homemade-apple";
+
 @import "tailwindcss";
 
  html {scroll-behavior: smooth;}
@@ -10,6 +12,7 @@
         "Inter Variable", "Inter", system-ui, -apple-system, BlinkMacSystemFont,
         "Segoe UI", sans-serif;
     --font-display: 'MonteCarlo', cursive;
+    --font-handwriting: 'Homemade Apple', cursive;
     --section-padding: clamp(2rem, 7vw, 6rem);
     --section-max-width: 1000px;
     --shadow-card: 0 12px 35px rgba(0, 0, 0, 0.08);

@@ -16,15 +16,15 @@ story:
   imageAlt: "Our story together"
   highlights:
     - "💌 Online hopefuls to offline lovers"
-    - "✈️ Adventures across continents"
+    - "✈️ Adventures across states"
     - "💍 Engaged in the forest where we first met"
 
 
 gallery:
   eyebrow: "Gallery"
   title: "Scroll through the memories"
-  description: >
-    A curated strip of the moments we never want to forget—from the first look to the final sparkler.
+  description: 
+  - Some of the memories we've made throughout the years together
   images:
     - asset: "gallery/halloween2.jpg"
       alt: "First Halloween"
@@ -33,21 +33,15 @@ gallery:
     - asset: "gallery/disneyworld.jpg"
       alt: "Disney!"
     - asset: "gallery/orioles.jpg"
-      alt: "First baseball game"
-    - asset: "ren.jpg"
-      alt: "Beyonce!"
-    - asset: "ring.jpg"
-      alt: "Look at that ring!"
-    - asset: "gallery/photobooth.jpg"
-      alt: "Say Cheese!"
-    - asset: "gallery/hollywood.jpg"
+      alt: "At an Orioles game"
+    - asset: "gallery/hollywood.jpg" 
       alt: "Day at Hollywood Studios"
     - asset: "gallery/f1.jpg"
-      alt: "Watching the race"
+      alt: "Watching the Austin Grand Prix"
     - asset: "gallery/cherryblossom.jpg"
       alt: "Cherry Blossom Festival"
-    - asset: "gallery/colorado.jpg"
-      alt: "Colorado Christmas Hike"
+    - asset: "gallery/colorado.JPEG" 
+      alt: "Christmas in Colorado"
     - asset: "gallery/halloween1.jpg"
       alt: "Lots of laughter"
 
