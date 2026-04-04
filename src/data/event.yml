@@ -10,16 +10,46 @@ hero:
 story:
   chapterLabel: "Chapter One"
   heading: "Our Story"
-  body: |
-    We met on a crisp autumn afternoon, when a simple conversation blossomed into an inseparable friendship.
-    Over time, that friendship grew into love, and together we've shared adventures, dreams, and challenges.
-    Today, we celebrate not only our love, but also the family and friends who have joined us on this journey.
-  imageAsset: "wedshots/vadim-paripa-unsplash.jpg"
+  body: | 
+    From the first message, we knew we were made for each other. At one point, our texts to each other became so long that they were too big to send via SMS! We met in person on an uncommonly temperate day in December. We made each other laugh so hard the boba tea we were drinking almost came out of our noses. Now, for years later, we want to celebrate a lifetime of love and laughter with our favorite people.
+
   imageAlt: "Our story together"
   highlights:
-    - "💌 From friends to soulmates"
+    - "💌 Online hopefuls to offline lovers"
     - "✈️ Adventures across continents"
-    - "💍 Engaged under autumn skies"
+    - "💍 Engaged in the forest where we first met"
+
+
+gallery:
+  eyebrow: "Gallery"
+  title: "Scroll through the memories"
+  description: >
+    A curated strip of the moments we never want to forget—from the first look to the final sparkler.
+  images:
+    - asset: "gallery/halloween2.jpg"
+      alt: "First Halloween"
+    - asset: "gallery/gardens.jpg"
+      alt: "Day at the Botanical Gardens"
+    - asset: "gallery/disneyworld.jpg"
+      alt: "Disney!"
+    - asset: "gallery/orioles.jpg"
+      alt: "First baseball game"
+    - asset: "ren.jpg"
+      alt: "Beyonce!"
+    - asset: "ring.jpg"
+      alt: "Look at that ring!"
+    - asset: "gallery/photobooth.jpg"
+      alt: "Say Cheese!"
+    - asset: "gallery/hollywood.jpg"
+      alt: "Day at Hollywood Studios"
+    - asset: "gallery/f1.jpg"
+      alt: "Watching the race"
+    - asset: "gallery/cherryblossom.jpg"
+      alt: "Cherry Blossom Festival"
+    - asset: "gallery/colorado.jpg"
+      alt: "Colorado Christmas Hike"
+    - asset: "gallery/halloween1.jpg"
+      alt: "Lots of laughter"
 
 schedule:
   eyebrow: "Our Celebration"
@@ -73,11 +103,12 @@ schedule:
         - "Final toast at 11:55 PM"
         - "Last shuttle leaves at 12:30 AM"
 
+
 HoneyFund:
-  - imageAlt: "Wishlist"
-    title: "Wishlist"
-    description: "See our gift wishlist and help us start our new chapter."
-    href: "/wishlist"
+  chapterLabel: "On Gifting"
+  heading: "Honey Fund"
+  body: |
+    We have been blessed to have all of our needs met, so we are not requesting physical gifts at this time. If you would like to give a gift, we have a honeymoon fund. There is no obligation. More than anything, your gift is celebrating this moment with us.
 
 RSVP:
   - title: "RSVP"
@@ -91,3 +122,13 @@ countdown:
     Every sunrise brings us closer to the moment we gather together. Save the date and get ready for an unforgettable celebration.
   target: "2026-06-21T21:00:00Z"
   location: "Mexico City • La Casa Azul"
+
+cards:
+  - imageAlt: "Venmo"
+    title: "Venmo"
+    description: "Let us know if you’ll be joining our special day!"
+    href: "https://www.venmo.com/u/melissacamillecolson"
+  - imageAlt: "Zelle"
+    title: "Zelle"
+    description: "See our gift wishlist and help us start our new chapter."
+    href: "/wishlist"

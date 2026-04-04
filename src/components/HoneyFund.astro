@@ -1,18 +1,44 @@
+---
+import { getEventData } from "../data/eventData";
+import Card from "./Card.astro";
+import { getEventData } from "../data/eventData";
+
+const {HoneyFund} = getEventData();
+const { cards = [] } = getEventData();
+---
+
+
 <section id="HoneyFund">
-    <div class="mx-auto w-full max-w-6xl px-4 py-24 sm:px-6 lg:px-8">
-    <p
-        class="text-sm uppercase tracking-[0.35em]"
+
+<div class="max-w-4xl mx-auto p-10">
+        <p
+        class="text-sm uppercase tracking-[0.35em] p-3"
         style="color: var(--color-muted);"
     >
-        On Gifting
+        {HoneyFund.chapterLabel}
     </p>        
         <h2 class="text-4xl lg:text-7xl tracking-tight font-(--font-display)"
-        style="color: var(--color-primary);">Honey Fund</h6>
+        style="color: var(--color-primary); p-3">{HoneyFund.heading}</h6>
         <p
-            class="text-lg leading-relaxed whitespace-pre-line font-(--font-sans)"
+            class="text-lg leading-relaxed whitespace-pre-line font-(--font-sans) p-3"
             style="color: var(--color-primary);"
             >
-            We have been blessed to have all of our needs met, so we are not requesting physical gifts at this time. If you would like to give a gift, we have a honeymoon fund. There is no obligation. More than anything, your gift is celebrating this moment with us.
+            {HoneyFund.body}
         </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {
+            cards.map((card) => (
+                <a
+                    href={card.href} target="_blank" title={card.title}
+                    class="group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+                >
+                    <Card
+                        imageAlt={card.imageAlt}
+                        title={card.title}
+                    />
+                </a>
+            ))
+        }
     </div>
+</div>
 </section>

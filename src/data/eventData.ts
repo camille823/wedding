@@ -41,6 +41,12 @@ export interface CardContent {
   href?: string;
 }
 
+export interface StoryContent {
+  chapterLabel: string;
+  heading: string;
+  body: string;
+}
+
 export interface GalleryImage {
   asset: string;
   alt: string;
