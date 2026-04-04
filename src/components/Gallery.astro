@@ -39,9 +39,12 @@ const galleryImages = (galleryContent.images ?? [])
     );
 ---
 
-<section
+<section id="gallery" class="bg-[url('../assets/grove.png')] bg-fixed"
     style="
+        background-size: cover;
+        background-position: center;
         background-color: var(--color-primary);
+          background-blend-mode: soft-light;
         color: var(--color-secondary);
     "
 >
@@ -72,7 +75,7 @@ const galleryImages = (galleryContent.images ?? [])
         id="gallery-scroll"
         class="relative flex min-h-screen w-full items-center overflow-hidden px-6"
     >
-        <div class="gallery-track flex items-center gap-8">
+        <div class="gallery-track flex items-center gap-8  ">
             {
                 galleryImages.map((image) => (
                     <figure
