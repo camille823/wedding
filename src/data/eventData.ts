@@ -8,6 +8,9 @@ export interface HeroContent {
   weekday: string;
   dateDisplay: string;
   location: string;
+  location_2: string;
+  address: string;
+  href: string;
 }
 
 export interface StoryContent {
