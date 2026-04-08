@@ -72,7 +72,7 @@ const galleryImages = (galleryContent.images ?? [])
     </div>
 
     <div
-        id=""
+        id="gallery-scroll"
         class="relative flex min-h-screen w-full items-center overflow-x-auto px-6"
     >
         <div class="gallery-track list-none flex items-center gap-8">
@@ -139,25 +139,5 @@ const galleryImages = (galleryContent.images ?? [])
 
         applyCenterPadding();
 
-        gsap.to(track, {
-            x: () => -getScrollLength(),
-            ease: "none",
-            scrollTrigger: {
-                trigger: gallery,
-                start: "top top",
-                end: () => "+=" + getScrollLength(),
-                pin: true,
-                scrub: 0.6,
-                invalidateOnRefresh: true,
-                onRefresh: applyCenterPadding,
-            },
-        });
-
-        ScrollTrigger.addEventListener("refreshInit", () => {
-            track.style.removeProperty("transform");
-            applyCenterPadding();
-        });
-
-        window.addEventListener("resize", () => ScrollTrigger.refresh());
     });
 </script>
