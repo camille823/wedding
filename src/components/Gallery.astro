@@ -73,9 +73,9 @@ const galleryImages = (galleryContent.images ?? [])
 
     <div
         id="gallery-scroll"
-        class="relative flex min-h-screen w-full items-center overflow-hidden px-6"
+        class="relative flex min-h-screen w-full items-center overflow-x-auto px-6"
     >
-        <div class="gallery-track flex items-center gap-8  ">
+        <div class="gallery-track list-none flex items-center gap-8">
             {
                 galleryImages.map((image) => (
                     <figure
@@ -108,6 +108,8 @@ const galleryImages = (galleryContent.images ?? [])
         </div>
     </div>
 </section>
+
+
 
 <script>
     import { gsap } from "gsap";
