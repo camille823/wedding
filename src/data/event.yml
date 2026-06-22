@@ -56,31 +56,31 @@ schedule:
     Follow along to savor every cherished moment with us—from vows to the last sparkling toast.
   events:
     - number: "00"
-      label: "Rehersal Dinner"
+      label: "9/10 @ 6:30 pm"
       title: "Rehersal Dinner"
       description: >
         We will convene the day before, Thursday the 10th, for decorating and rehearsal dinner.
       details:
         - "Thursday the 10th, same location"
-        - "Optional set up starts at **9:00 am**"
-        - "Rehearsal at **6:30 pm**"
+        - "Optional set up starts at 9:00 am"
+        - "Rehearsal at 6:30 pm"
         - "Dinner afterwards - details to follow"
     - number: "01"
-      label: "3:00 pm"
+      label: "9/11 @ 3:00 pm"
       title: "Vows & Ceremony"
       description: >
         Gather at Shelter 300 for the commencement of the ceremony.
       details:
-        - "Beginning at **3:00 pm**"
+        - "Beginning at 3:00 pm"
         - "Followed by optional photos with photographer"
     - number: "02"
-      label: "Reception"
+      label: "9/11 @ 4:00 pm"
       title: "Candlelit Reception"
       description: >
         Join us for our first meal together as a wedded couple.
       details:
-        - "Serving begins at **3:30 pm**"
-        - "Cake cutting at **4:00 pm**"
+        - "Serving begins at 4:00 pm"
+        - "Cake cutting at 5:00 pm"
 
 
 
