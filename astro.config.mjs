@@ -10,7 +10,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 
-  site: 'https://camille823.github.io',
+  site: 'https://www.melissaandcamille.com',
   base: '/',
   integrations: [icon()],
 });
