@@ -11,6 +11,6 @@ export default defineConfig({
   },
 
   site: 'https://camille823.github.io',
-  base: '/wedding',
+  base: '/',
   integrations: [icon()],
 });
