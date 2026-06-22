@@ -62,16 +62,16 @@ schedule:
         We will convene the day before, Thursday the 10th, for decorating and rehearsal dinner.
       details:
         - "Thursday the 10th, same location"
-        - "Optional set up starts at 2pm"
-        - "Rehearsal at 6:30 pm"
+        - "Optional set up starts at **9:00 am**"
+        - "Rehearsal at **6:30 pm**"
         - "Dinner afterwards - details to follow"
     - number: "01"
-      label: "Vows & Ceremony"
+      label: "3:00 pm"
       title: "Vows & Ceremony"
       description: >
         Gather at Shelter 300 for the commencement of the ceremony.
       details:
-        - "Beginning at 2:00 pm"
+        - "Beginning at **3:00 pm**"
         - "Followed by optional photos with photographer"
     - number: "02"
       label: "Reception"
@@ -79,8 +79,8 @@ schedule:
       description: >
         Join us for our first meal together as a wedded couple.
       details:
-        - "Serving begins at 3:30 PM"
-        - "Cake cutting at 4:00 pm"
+        - "Serving begins at **3:30 pm**"
+        - "Cake cutting at **4:00 pm**"
 
 
 
