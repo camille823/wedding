@@ -74,12 +74,13 @@ const galleryImages = (galleryContent.images ?? [])
     <div
         id="gallery-scroll"
         class="relative flex min-h-screen w-full items-center overflow-x-auto px-6"
+        style="scrollbar-width: none;"
     >
-        <div class="gallery-track list-none flex items-center gap-8">
+        <div class="gallery-track flex items-center gap-8 snap-x snap-mandatory">
             {
                 galleryImages.map((image) => (
                     <figure
-                        class="relative aspect-square w-xs md:w-75 lg:w-100 flex-none overflow-hidden bg-white pt-4 pl-4 pr-4 pb-14"
+                        class="relative aspect-square w-xs md:w-75 lg:w-100 flex-none snap-center shrink-0 snap-always bg-white pt-4 pl-4 pr-4 pb-14"
                         style="
                         "
                     >

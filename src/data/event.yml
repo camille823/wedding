@@ -63,7 +63,7 @@ schedule:
       details:
         - "Thursday the 10th, same location"
         - "Optional set up starts at 2pm"
-        - "Rehersal at 6:30 pm"
+        - "Rehearsal at 6:30 pm"
         - "Dinner afterwards - details to follow"
     - number: "01"
       label: "Vows & Ceremony"
@@ -71,27 +71,17 @@ schedule:
       description: >
         Gather at Shelter 300 for the commencement of the ceremony.
       details:
-        - "Signature drink: Lavender Paloma"
-        - "String trio taking requests"
-        - "Canapés served throughout the garden"
+        - "Beginning at 2:00 pm"
+        - "Followed by optional photos with photographer"
     - number: "02"
-      label: "Photoshoot"
+      label: "Reception"
       title: "Candlelit Reception"
       description: >
-        Savor a farm-to-table feast paired with curated wines while heartfelt toasts and stories fill the room.
+        Join us for our first meal together as a wedded couple.
       details:
-        - "Dinner call at 6:25 PM"
-        - "Toasts begin after the second course"
-        - "Dessert trio plated at 8:10 PM"
-    - number: "03"
-      label: "Dinner & Celebration"
-      title: "Dinner & Celebration"
-      description: >
-        Kick off the dance floor with our first dance, then stay on your feet for live DJ sets, photo moments, and late-night bites.
-      details:
-        - "First dance at 8:50 PM"
-        - "Dessert lounge opens at 9:30 PM"
-        - "Photo booth until 11:30 PM"
+        - "Serving begins at 3:30 PM"
+        - "Cake cutting at 4:00 pm"
+
 
 
 HoneyFund:
